@@ -4,4 +4,4 @@ C. Yang, W. Xie, A. Zisserman
 
 https://charigyang.github.io/abouttime/
 
-Code coming (very) soon
+Code will arrive in no time.
