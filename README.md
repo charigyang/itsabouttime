@@ -5,4 +5,4 @@ C. Yang, W. Xie, A. Zisserman
 
 https://charigyang.github.io/abouttime/
 
-Code will arrive in no time.
+Code will arrive in no time (ETA: later this month).
