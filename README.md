@@ -10,6 +10,10 @@ Using pretrained model:
 
 Training:
 - `sh full_cycle.sh` should do the job
+- if you want to do it individually, then do investigate 
+  -  1. `train.py` train on SynClock
+  -  2. `generate_pseudo_labels.py` use the model to generate pseudo labels for timelapse
+  -  3. `train_refine.py` train on SynClock+timelapse
 
 Dataset (Train):
 - SynClock is generated on the fly (via `SynClock.py`)
