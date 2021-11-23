@@ -20,9 +20,13 @@ Dataset (Train):
 - SynClock is generated on the fly (via `SynClock.py`)
 - Timelapse will be uploaded later.
 
-Dataset (Eval)
+Dataset (Eval):
 - COCO and OpenImages: The `.csv` files in `data/` contains the image ids, predicted bbox's (by CBNetV2), gt bbox's, and the manual time label. We will upload this subset later for convenience, but if you already have the respective datasets it should already work.
 - Clock Movies do not contain bbox's. We may not be able to release the data directly due to copyright, but the csv files do contain the image file names, and they are scraped from https://theclock.fandom.com/wiki/Special:NewFiles
+
+Note:
+src/cyclic_ransac.py is adapted from the source code of scikit-learn (authored by Johannes Schönberger under BSD 3 clause license), to fit a sawtooth wave for cyclic linear data.
+
 
 Coming soon (early December):
 - video
