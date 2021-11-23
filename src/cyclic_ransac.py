@@ -1,12 +1,5 @@
 # coding: utf-8
 
-# Author: Johannes Schönberger
-#
-# License: BSD 3 clause
-
-#Originally a sklearn source code.
-#Adapted to fit a sawtooth wave for cyclic linear data.
-
 import numpy as np
 import warnings
 
