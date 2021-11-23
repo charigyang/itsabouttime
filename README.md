@@ -5,7 +5,7 @@ Packages required:
 `pytorch` (used 1.9, any reasonable version should work), `kornia` (for homography), `einops`, `scikit-learn` (for RANSAC), `tensorboardX` (for logging)
 
 Using pretrained model:
-- prediction `python predict.py` will predict on your data (or by default, whatever is in `data/demo`). This does assume the images being already cropped (or you could add something like yolov5).
+- prediction `python predict.py` will predict on your data (or by default, whatever is in `data/demo`). This does assume the images being already cropped (or you could add something like a yolov5 to the code if you prefer).
 - evaluation `python eval.py` (requires dataset) should return the numbers reported in the paper
 
 Training:
