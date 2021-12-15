@@ -28,7 +28,7 @@ Note:
 src/cyclic_ransac.py is adapted from the source code of scikit-learn (authored by Johannes Schönberger under BSD 3 clause license), to fit a sawtooth wave for cyclic linear data.
 
 
-Coming soon (early December):
+Coming soon (~~early~~ late December):
 - video
 - dataset
 - detection
